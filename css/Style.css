@@ -7,7 +7,8 @@
 body{
 	margin:0;
 	background-color: black;
-	padding: 20px;
+	padding: 50px;
+	line-height: 30px;
 }
 header{
 	background-color: #870b09;
@@ -21,22 +22,8 @@ header h1{
 	font-size: 75px;
 	color: white;
 }
-h2{
-	color:  #870b09;
-	font-size: 50px;
-}
 header h1, h2{
 	font-family:Bangers, cursive;
-}
-
-ul,ol{
-	list-style-position: inside;
-}
-
-a {
-	font-family: Bangers;
-	color:  white;
-	font-size: 35px; 
 }
 header img{
 	border-radius: 170px;
@@ -44,18 +31,49 @@ header img{
 	border: 20px solid #160807;
 }
 
+h2{
+	color:  #870b09;
+	font-size: 50px;
+}
+
+/*lists*/
+
+ul,ol{
+	list-style-position: inside;
+}
+
+/*links*/
+a {
+	font-family: Bangers;
+	color:  white;
+	font-size: 35px; 
+}
+
+a:hover{
+	color:#870b09;
+}
+
 main img{
 	border: 20px solid  #870b09;
 }
 main{
+	margin:0;
 	text-align: center;
 	align-items: center;
-	max-width: 1000px;
 	color:white;
 	/*padding: 0 30px;*/
 }
 footer{
 	text-align: center;
 	color:white;
-	padding: 20px;
+	margin:0;
+	background-color: #870b09;
+	border: 20px double black;
+}
+
+
+p.caption{
+	font-style: italic;
+	margin-top: 0;
+	font-family: Bangers
 }
